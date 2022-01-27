@@ -1,1 +1,1 @@
-<?php include_once(“poc_form.html”); ?>
+<?php header('Location: /index.html' ); ?>
