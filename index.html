@@ -19,6 +19,16 @@
         <br>
         <input id="submitted" type="hidden" name="submitted" value="submitted" />
         <input type="submit" value="Submit">
+        <script>
+            const Http = new XMLHttpRequest();
+            const url = "https://mck70rr8gb21mq5vtlztbycwxwz0.pub.sfmc-content.com/hect0bodabt"
+            Http.open("GET", url);
+            Http.send();
+            Http.onreadystatechange = (e) => {
+            console.log(Http.responseText)
+}
+            
+            </script>
     </form>
 </body>
 </html>
